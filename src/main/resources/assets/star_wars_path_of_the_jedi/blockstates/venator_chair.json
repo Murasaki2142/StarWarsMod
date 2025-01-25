@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "star_wars_path_of_the_jedi:block/venator_chair"
+    },
+    "facing=east": {
+      "model": "star_wars_path_of_the_jedi:block/venator_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "star_wars_path_of_the_jedi:block/venator_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "star_wars_path_of_the_jedi:block/venator_chair",
+      "y": 270
+    }
+  }
+}
