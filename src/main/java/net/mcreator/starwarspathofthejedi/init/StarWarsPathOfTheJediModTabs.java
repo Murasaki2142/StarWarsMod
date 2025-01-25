@@ -31,5 +31,8 @@ public class StarWarsPathOfTheJediModTabs {
 				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_1.get().asItem());
 				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_2.get().asItem());
 				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_3.get().asItem());
+				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_1.get().asItem());
+				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_2.get().asItem());
+				tabData.accept(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_3.get().asItem());
 			}).withSearchBar().build());
 }

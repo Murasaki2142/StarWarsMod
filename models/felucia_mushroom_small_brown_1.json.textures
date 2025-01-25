@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "felucia_mushroom_small_brown"
+      },
+      "name": "default"
+    }
+  }
+}

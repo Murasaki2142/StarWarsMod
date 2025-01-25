@@ -35,6 +35,10 @@ public class StarWarsPathOfTheJediModItems {
 	public static final RegistryObject<Item> FELUCIA_GREEN_BLOB_1 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_1);
 	public static final RegistryObject<Item> FELUCIA_GREEN_BLOB_2 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_2);
 	public static final RegistryObject<Item> FELUCIA_GREEN_BLOB_3 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_GREEN_BLOB_3);
+	public static final RegistryObject<Item> FELUCIA_BROWN_SHROOM_1 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_1);
+	public static final RegistryObject<Item> FELUCIA_BROWN_SHROOM_2 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_2);
+	public static final RegistryObject<Item> FELUCIA_BROWN_SHROOM_3 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_3);
+	public static final RegistryObject<Item> VENATOR_CHAIR = block(StarWarsPathOfTheJediModBlocks.VENATOR_CHAIR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

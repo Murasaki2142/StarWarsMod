@@ -10,12 +10,16 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.starwarspathofthejedi.block.VenatorChairBlock;
 import net.mcreator.starwarspathofthejedi.block.MechanicalConsole3Block;
 import net.mcreator.starwarspathofthejedi.block.MechanicalConsole2Block;
 import net.mcreator.starwarspathofthejedi.block.MechanicalConsole1Block;
 import net.mcreator.starwarspathofthejedi.block.FeluciaGreenBlob3Block;
 import net.mcreator.starwarspathofthejedi.block.FeluciaGreenBlob2Block;
 import net.mcreator.starwarspathofthejedi.block.FeluciaGreenBlob1Block;
+import net.mcreator.starwarspathofthejedi.block.FeluciaBrownShroom3Block;
+import net.mcreator.starwarspathofthejedi.block.FeluciaBrownShroom2Block;
+import net.mcreator.starwarspathofthejedi.block.FeluciaBrownShroom1Block;
 import net.mcreator.starwarspathofthejedi.block.AlarmSensor7Block;
 import net.mcreator.starwarspathofthejedi.block.AlarmSensor6Block;
 import net.mcreator.starwarspathofthejedi.block.AlarmSensor5Block;
@@ -40,6 +44,10 @@ public class StarWarsPathOfTheJediModBlocks {
 	public static final RegistryObject<Block> FELUCIA_GREEN_BLOB_1 = REGISTRY.register("felucia_green_blob_1", () -> new FeluciaGreenBlob1Block());
 	public static final RegistryObject<Block> FELUCIA_GREEN_BLOB_2 = REGISTRY.register("felucia_green_blob_2", () -> new FeluciaGreenBlob2Block());
 	public static final RegistryObject<Block> FELUCIA_GREEN_BLOB_3 = REGISTRY.register("felucia_green_blob_3", () -> new FeluciaGreenBlob3Block());
+	public static final RegistryObject<Block> FELUCIA_BROWN_SHROOM_1 = REGISTRY.register("felucia_brown_shroom_1", () -> new FeluciaBrownShroom1Block());
+	public static final RegistryObject<Block> FELUCIA_BROWN_SHROOM_2 = REGISTRY.register("felucia_brown_shroom_2", () -> new FeluciaBrownShroom2Block());
+	public static final RegistryObject<Block> FELUCIA_BROWN_SHROOM_3 = REGISTRY.register("felucia_brown_shroom_3", () -> new FeluciaBrownShroom3Block());
+	public static final RegistryObject<Block> VENATOR_CHAIR = REGISTRY.register("venator_chair", () -> new VenatorChairBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "star_wars_path_of_the_jedi:blocks/venator_chair",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "star_wars_path_of_the_jedi:venator_chair"
+        }
+      ]
+    }
+  ]
+}
