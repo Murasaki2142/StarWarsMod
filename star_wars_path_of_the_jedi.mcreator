@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheCube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_cube.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.star_wars_path_of_the_jedi.the_cube": "The Cube"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "star_wars_path_of_the_jedi",
+    "modName": "Star Wars: Path of the Jedi",
+    "version": "1.0.0",
+    "author": "evanp, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.starwarspathofthejedi"
+  },
+  "mcreatorVersion": 202400232117
+}

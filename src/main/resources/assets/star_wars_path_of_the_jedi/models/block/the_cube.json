@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/activator_rail_on",
+    "up": "minecraft:block/activator_rail_on",
+    "north": "minecraft:block/activator_rail_on",
+    "east": "minecraft:block/activator_rail_on",
+    "south": "minecraft:block/activator_rail_on",
+    "west": "minecraft:block/activator_rail_on",
+    "particle": "minecraft:block/activator_rail_on"
+  },
+  "render_type": "solid"
+}
