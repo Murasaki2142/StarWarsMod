@@ -21,6 +21,12 @@ authors="evanp, MCreator"
     side="BOTH"
 
 
+[[dependencies.star_wars_path_of_the_jedi]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
