@@ -314,6 +314,28 @@
         ]
       },
       "path": "~/Decor"
+    },
+    {
+      "name": "CrashedBARCSpeeder",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_barc_speeder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/crashed_barc_speeder_particle.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/CrashedBARCSpeederDisplayModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/CrashedBARCSpeederBlockModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/CrashedBARCSpeederDisplayItem.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/CrashedBARCSpeederBlock.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/CrashedBARCSpeederDisplayItemRenderer.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/crashed_barc_speeder.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/CrashedBARCSpeederTileRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/CrashedBARCSpeederTileEntity.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/crashed_barc_speeder.json"
+        ]
+      },
+      "path": "~/Decor"
     }
   ],
   "variable_elements": [],
@@ -322,6 +344,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.star_wars_path_of_the_jedi.crashed_barc_speeder": "Crashed BARC Speeder",
       "block.star_wars_path_of_the_jedi.felucia_green_blob_1": "Felucia Green Blob 1",
       "block.star_wars_path_of_the_jedi.felucia_green_blob_3": "Felucia Green Blob 3",
       "block.star_wars_path_of_the_jedi.felucia_green_blob_2": "Felucia Green Blob 2",

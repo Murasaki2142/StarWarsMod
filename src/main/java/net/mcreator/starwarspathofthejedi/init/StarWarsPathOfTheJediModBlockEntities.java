@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.starwarspathofthejedi.block.entity.MechanicalConsole3TileEntity;
 import net.mcreator.starwarspathofthejedi.block.entity.MechanicalConsole2TileEntity;
 import net.mcreator.starwarspathofthejedi.block.entity.MechanicalConsole1TileEntity;
+import net.mcreator.starwarspathofthejedi.block.entity.CrashedBARCSpeederTileEntity;
 import net.mcreator.starwarspathofthejedi.StarWarsPathOfTheJediMod;
 
 public class StarWarsPathOfTheJediModBlockEntities {
@@ -24,6 +25,8 @@ public class StarWarsPathOfTheJediModBlockEntities {
 			() -> BlockEntityType.Builder.of(MechanicalConsole2TileEntity::new, StarWarsPathOfTheJediModBlocks.MECHANICAL_CONSOLE_2.get()).build(null));
 	public static final RegistryObject<BlockEntityType<MechanicalConsole3TileEntity>> MECHANICAL_CONSOLE_3 = REGISTRY.register("mechanical_console_3",
 			() -> BlockEntityType.Builder.of(MechanicalConsole3TileEntity::new, StarWarsPathOfTheJediModBlocks.MECHANICAL_CONSOLE_3.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CrashedBARCSpeederTileEntity>> CRASHED_BARC_SPEEDER = REGISTRY.register("crashed_barc_speeder",
+			() -> BlockEntityType.Builder.of(CrashedBARCSpeederTileEntity::new, StarWarsPathOfTheJediModBlocks.CRASHED_BARC_SPEEDER.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

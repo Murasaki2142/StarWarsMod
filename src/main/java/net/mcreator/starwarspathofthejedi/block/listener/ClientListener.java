@@ -10,6 +10,7 @@ import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModBlockEnti
 import net.mcreator.starwarspathofthejedi.block.renderer.MechanicalConsole3TileRenderer;
 import net.mcreator.starwarspathofthejedi.block.renderer.MechanicalConsole2TileRenderer;
 import net.mcreator.starwarspathofthejedi.block.renderer.MechanicalConsole1TileRenderer;
+import net.mcreator.starwarspathofthejedi.block.renderer.CrashedBARCSpeederTileRenderer;
 import net.mcreator.starwarspathofthejedi.StarWarsPathOfTheJediMod;
 
 @Mod.EventBusSubscriber(modid = StarWarsPathOfTheJediMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -20,5 +21,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(StarWarsPathOfTheJediModBlockEntities.MECHANICAL_CONSOLE_1.get(), context -> new MechanicalConsole1TileRenderer());
 		event.registerBlockEntityRenderer(StarWarsPathOfTheJediModBlockEntities.MECHANICAL_CONSOLE_2.get(), context -> new MechanicalConsole2TileRenderer());
 		event.registerBlockEntityRenderer(StarWarsPathOfTheJediModBlockEntities.MECHANICAL_CONSOLE_3.get(), context -> new MechanicalConsole3TileRenderer());
+		event.registerBlockEntityRenderer(StarWarsPathOfTheJediModBlockEntities.CRASHED_BARC_SPEEDER.get(), context -> new CrashedBARCSpeederTileRenderer());
 	}
 }

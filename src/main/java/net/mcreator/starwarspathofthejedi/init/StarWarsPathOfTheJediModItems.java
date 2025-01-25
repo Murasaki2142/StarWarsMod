@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.starwarspathofthejedi.block.display.MechanicalConsole3DisplayItem;
 import net.mcreator.starwarspathofthejedi.block.display.MechanicalConsole2DisplayItem;
 import net.mcreator.starwarspathofthejedi.block.display.MechanicalConsole1DisplayItem;
+import net.mcreator.starwarspathofthejedi.block.display.CrashedBARCSpeederDisplayItem;
 import net.mcreator.starwarspathofthejedi.StarWarsPathOfTheJediMod;
 
 public class StarWarsPathOfTheJediModItems {
@@ -39,6 +40,8 @@ public class StarWarsPathOfTheJediModItems {
 	public static final RegistryObject<Item> FELUCIA_BROWN_SHROOM_2 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_2);
 	public static final RegistryObject<Item> FELUCIA_BROWN_SHROOM_3 = block(StarWarsPathOfTheJediModBlocks.FELUCIA_BROWN_SHROOM_3);
 	public static final RegistryObject<Item> VENATOR_CHAIR = block(StarWarsPathOfTheJediModBlocks.VENATOR_CHAIR);
+	public static final RegistryObject<Item> CRASHED_BARC_SPEEDER = REGISTRY.register(StarWarsPathOfTheJediModBlocks.CRASHED_BARC_SPEEDER.getId().getPath(),
+			() -> new CrashedBARCSpeederDisplayItem(StarWarsPathOfTheJediModBlocks.CRASHED_BARC_SPEEDER.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

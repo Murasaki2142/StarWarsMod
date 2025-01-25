@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_path_of_the_jedi:displaysettings/crashed_speeder_display",
+  "textures": {
+    "particle": "star_wars_path_of_the_jedi:block/crashed_speeder_bike"
+  }
+}
