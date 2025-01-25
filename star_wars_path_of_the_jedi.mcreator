@@ -8,11 +8,11 @@
       "registry_name": "the_cube",
       "metadata": {
         "files": [
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json",
           "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_cube.json",
           "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_cube.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java",
-          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json"
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java"
         ]
       }
     },

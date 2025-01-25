@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/activator_rail_on",
-    "up": "minecraft:block/activator_rail_on",
-    "north": "minecraft:block/activator_rail_on",
-    "east": "minecraft:block/activator_rail_on",
-    "south": "minecraft:block/activator_rail_on",
-    "west": "minecraft:block/activator_rail_on",
-    "particle": "minecraft:block/activator_rail_on"
+    "down": "minecraft:block/gold_ore",
+    "up": "minecraft:block/gold_ore",
+    "north": "minecraft:block/gold_ore",
+    "east": "minecraft:block/gold_ore",
+    "south": "minecraft:block/gold_ore",
+    "west": "minecraft:block/gold_ore",
+    "particle": "minecraft:block/gold_ore"
   },
   "render_type": "solid"
 }
