@@ -1,0 +1,9 @@
+{
+  "parent": "star_wars_path_of_the_jedi:custom/alarm_sensor_4",
+  "textures": {
+    "all": "star_wars_path_of_the_jedi:block/alarm_sensor",
+    "particle": "star_wars_path_of_the_jedi:block/alarm_sensor",
+    "0": "star_wars_path_of_the_jedi:block/alarm_sensor"
+  },
+  "render_type": "cutout"
+}

@@ -1,57 +1,251 @@
 {
   "mod_elements": [
     {
-      "name": "TheCube",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_cube",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_cube.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java",
-          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json"
-        ]
-      }
-    },
-    {
-      "name": "TheSecondCube",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_second_cube",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_second_cube.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheSecondCubeBlock.java",
-          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_second_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_second_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_second_cube.json"
-        ]
-      }
-    },
-    {
-      "name": "Console",
+      "name": "MechanicalConsole1",
       "type": "animatedblock",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "console",
+      "registry_name": "mechanical_console_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/ConsoleBlock.java",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/console.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/console.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/ConsoleDisplayItem.java",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/ConsoleTileEntity.java",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/ConsoleBlockModel.java",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/ConsoleDisplayModel.java",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/console_particle.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/ConsoleTileRenderer.java",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/ConsoleDisplayItemRenderer.java"
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/MechanicalConsole1TileEntity.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/MechanicalConsole1DisplayItem.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole1BlockModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole1DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole1DisplayModel.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/mechanical_console_1.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/mechanical_console_1.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/MechanicalConsole1Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/mechanical_console_1_particle.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole1TileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "DecorTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decor_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "MechanicalConsole2",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_console_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/MechanicalConsole2TileEntity.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/MechanicalConsole2Block.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole2TileRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole2DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole2BlockModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole2DisplayModel.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/mechanical_console_2_particle.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/MechanicalConsole2DisplayItem.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/mechanical_console_2.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/mechanical_console_2.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "MechanicalConsole3",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_console_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/MechanicalConsole3DisplayItem.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole3TileRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/MechanicalConsole3DisplayItemRenderer.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/mechanical_console_3_particle.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/mechanical_console_3.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/MechanicalConsole3TileEntity.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/MechanicalConsole3Block.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole3DisplayModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/MechanicalConsole3BlockModel.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/mechanical_console_3.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_1.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_1.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_1.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor1Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_1.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor2Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_2.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_2.json",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_2.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_2.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor3Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_3.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_3.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_3.json",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_3.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_4.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor4Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_4.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_4.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_4.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_5.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_5.json",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_5.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_5.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor5Block.java"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor6Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_6.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_6.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_6.json",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_6.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "AlarmSensor7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_sensor_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/alarm_sensor_7.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/AlarmSensor7Block.java",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/alarm_sensor_7.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/alarm_sensor_7.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/alarm_sensor_7.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "FeluciaGreenBlob1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_green_blob_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/felucia_green_blob_1.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/FeluciaGreenBlob1Block.java",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/felucia_green_blob_1.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/felucia_green_blob_1.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/felucia_green_blob_1.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "FeluciaGreenBlob2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_green_blob_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/felucia_green_blob_2.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/FeluciaGreenBlob2Block.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/felucia_green_blob_2.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/felucia_green_blob_2.json",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/felucia_green_blob_2.json"
+        ]
+      },
+      "path": "~/Decor"
+    },
+    {
+      "name": "FeluciaGreenBlob3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_green_blob_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/felucia_green_blob_3.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/felucia_green_blob_3.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/felucia_green_blob_3.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/FeluciaGreenBlob3Block.java",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/felucia_green_blob_3.json"
+        ]
+      },
+      "path": "~/Decor"
     }
   ],
   "variable_elements": [],
@@ -60,14 +254,46 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.star_wars_path_of_the_jedi.the_second_cube": "The Second Cube",
-      "block.star_wars_path_of_the_jedi.the_cube": "The Cube",
-      "block.star_wars_path_of_the_jedi.console": "Console"
+      "block.star_wars_path_of_the_jedi.felucia_green_blob_1": "Felucia Green Blob 1",
+      "block.star_wars_path_of_the_jedi.felucia_green_blob_3": "Felucia Green Blob 3",
+      "block.star_wars_path_of_the_jedi.felucia_green_blob_2": "Felucia Green Blob 2",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_4": "Alarm Sensor 4",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_3": "Alarm Sensor 3",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_2": "Alarm Sensor 2",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_1": "Alarm Sensor 1",
+      "block.star_wars_path_of_the_jedi.mechanical_console_1": "Mechanical Console 1",
+      "item_group.star_wars_path_of_the_jedi.decor_tab": "Path of Jedi decor",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_7": "Alarm Sensor 7",
+      "block.star_wars_path_of_the_jedi.mechanical_console_3": "Mechanical Console 3",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_6": "Alarm Sensor 6",
+      "block.star_wars_path_of_the_jedi.mechanical_console_2": "Mechanical Console 2",
+      "block.star_wars_path_of_the_jedi.alarm_sensor_5": "Alarm Sensor 5"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Decor",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "star_wars_path_of_the_jedi",

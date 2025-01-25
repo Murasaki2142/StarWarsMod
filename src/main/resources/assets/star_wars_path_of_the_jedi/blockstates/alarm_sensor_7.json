@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "star_wars_path_of_the_jedi:block/alarm_sensor_7"
+    },
+    "facing=east": {
+      "model": "star_wars_path_of_the_jedi:block/alarm_sensor_7",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "star_wars_path_of_the_jedi:block/alarm_sensor_7",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "star_wars_path_of_the_jedi:block/alarm_sensor_7",
+      "y": 270
+    }
+  }
+}

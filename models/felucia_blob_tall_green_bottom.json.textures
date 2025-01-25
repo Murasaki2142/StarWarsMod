@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "felucia_blob_big_green"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Path of Jedi decor",
+    "icon": {
+      "value": "CUSTOM:MechanicalConsole1"
+    },
+    "showSearch": true
+  }
+}

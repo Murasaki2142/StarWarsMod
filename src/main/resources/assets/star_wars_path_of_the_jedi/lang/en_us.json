@@ -1,5 +1,16 @@
 {
-  "block.star_wars_path_of_the_jedi.the_second_cube": "The Second Cube",
-  "block.star_wars_path_of_the_jedi.the_cube": "The Cube",
-  "block.star_wars_path_of_the_jedi.console": "Console"
+  "block.star_wars_path_of_the_jedi.felucia_green_blob_1": "Felucia Green Blob 1",
+  "block.star_wars_path_of_the_jedi.felucia_green_blob_3": "Felucia Green Blob 3",
+  "block.star_wars_path_of_the_jedi.felucia_green_blob_2": "Felucia Green Blob 2",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_4": "Alarm Sensor 4",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_3": "Alarm Sensor 3",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_2": "Alarm Sensor 2",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_1": "Alarm Sensor 1",
+  "block.star_wars_path_of_the_jedi.mechanical_console_1": "Mechanical Console 1",
+  "item_group.star_wars_path_of_the_jedi.decor_tab": "Path of Jedi decor",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_7": "Alarm Sensor 7",
+  "block.star_wars_path_of_the_jedi.mechanical_console_3": "Mechanical Console 3",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_6": "Alarm Sensor 6",
+  "block.star_wars_path_of_the_jedi.mechanical_console_2": "Mechanical Console 2",
+  "block.star_wars_path_of_the_jedi.alarm_sensor_5": "Alarm Sensor 5"
 }

@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModTabs;
 import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModItems;
 import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModBlocks;
 import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModBlockEntities;
@@ -44,6 +45,8 @@ public class StarWarsPathOfTheJediMod {
 		StarWarsPathOfTheJediModBlocks.REGISTRY.register(bus);
 		StarWarsPathOfTheJediModBlockEntities.REGISTRY.register(bus);
 		StarWarsPathOfTheJediModItems.REGISTRY.register(bus);
+
+		StarWarsPathOfTheJediModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
