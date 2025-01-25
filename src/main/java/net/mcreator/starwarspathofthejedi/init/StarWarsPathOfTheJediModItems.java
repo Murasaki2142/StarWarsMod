@@ -17,6 +17,7 @@ import net.mcreator.starwarspathofthejedi.StarWarsPathOfTheJediMod;
 public class StarWarsPathOfTheJediModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StarWarsPathOfTheJediMod.MODID);
 	public static final RegistryObject<Item> THE_CUBE = block(StarWarsPathOfTheJediModBlocks.THE_CUBE);
+	public static final RegistryObject<Item> THE_SECOND_CUBE = block(StarWarsPathOfTheJediModBlocks.THE_SECOND_CUBE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
