@@ -8,11 +8,11 @@
       "registry_name": "the_cube",
       "metadata": {
         "files": [
-          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json",
           "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_cube.json",
           "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_cube.json",
-          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java"
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/TheCubeBlock.java",
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_cube.json"
         ]
       }
     },
@@ -24,11 +24,32 @@
       "registry_name": "the_second_cube",
       "metadata": {
         "files": [
-          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_second_cube.json",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_second_cube.json",
           "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/the_second_cube.json",
           "src/main/java/net/mcreator/starwarspathofthejedi/block/TheSecondCubeBlock.java",
-          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_second_cube.json"
+          "src/main/resources/data/star_wars_path_of_the_jedi/loot_tables/blocks/the_second_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/the_second_cube.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/block/the_second_cube.json"
+        ]
+      }
+    },
+    {
+      "name": "Console",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "console",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/ConsoleBlock.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/blockstates/console.json",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/item/console.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/display/ConsoleDisplayItem.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/entity/ConsoleTileEntity.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/ConsoleBlockModel.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/model/ConsoleDisplayModel.java",
+          "src/main/resources/assets/star_wars_path_of_the_jedi/models/custom/console_particle.json",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/ConsoleTileRenderer.java",
+          "src/main/java/net/mcreator/starwarspathofthejedi/block/renderer/ConsoleDisplayItemRenderer.java"
         ]
       }
     }
@@ -40,7 +61,8 @@
   "language_map": {
     "en_us": {
       "block.star_wars_path_of_the_jedi.the_second_cube": "The Second Cube",
-      "block.star_wars_path_of_the_jedi.the_cube": "The Cube"
+      "block.star_wars_path_of_the_jedi.the_cube": "The Cube",
+      "block.star_wars_path_of_the_jedi.console": "Console"
     }
   },
   "foldersRoot": {

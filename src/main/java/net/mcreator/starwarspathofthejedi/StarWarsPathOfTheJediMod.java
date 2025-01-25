@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModItems;
 import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModBlocks;
+import net.mcreator.starwarspathofthejedi.init.StarWarsPathOfTheJediModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,7 +42,7 @@ public class StarWarsPathOfTheJediMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		StarWarsPathOfTheJediModBlocks.REGISTRY.register(bus);
-
+		StarWarsPathOfTheJediModBlockEntities.REGISTRY.register(bus);
 		StarWarsPathOfTheJediModItems.REGISTRY.register(bus);
 
 		// Start of user code block mod init

@@ -1,0 +1,7 @@
+
+{
+  "parent": "star_wars_path_of_the_jedi:displaysettings/venator_bridge_mechanical_table",
+  "textures": {
+    "particle": "star_wars_path_of_the_jedi:block/venator_bridge_mechanical_table"
+  }
+}
